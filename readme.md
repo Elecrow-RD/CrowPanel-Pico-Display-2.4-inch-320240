@@ -69,5 +69,16 @@ C:\Users\Documents\Arduino\libraries\
 ### 7,Pin definition
 
 #define I2C0_SDA 20
+
 #define I2C0_SCL 21
+
+#SD
+
+const int _MISO = 12;  // AKA SPI RX
+
+const int _MOSI = 11;  // AKA SPI TX
+
+const int _CS = 22;
+
+const int _SCK = 10;
 
